@@ -6,7 +6,7 @@
 #    By: anurtiag <anurtiag@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/26 11:46:43 by anurtiag          #+#    #+#              #
-#    Updated: 2024/02/02 10:05:41 by anurtiag         ###   ########.fr        #
+#    Updated: 2025/04/19 13:08:47 by anurtiag         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,8 +28,7 @@ HEADERS			=	-I $(LIBFT) -I $(PRINTF)
 
 HEADERS_BONUS	=	-I $(LIBFT) -I $(PRINTF) -I $(GNL)
 
-SRCS			=	push_swap.c utils.c utils2.c dll_utils.c operations1.c operations2.c target.c
-
+SRCS			=	ft_ls.c
 SRCS_BONUS		=	checker_bonus.c utils_bonus.c dll_utils_bonus.c operations1_bonus.c operations2_bonus.c
 
 OBJ				=	$(SRCS:.c=.o)
